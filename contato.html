@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+    contet="width==device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <title>Explore TUR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
+</head>
+<body>
+     <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" 
+                            data-toggle="collapse" data-target="#nossoMenu" 
+                            aria-controls="nossoMenu" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>        
+            <div class="collapse navbar-collapse" id="nossoMenu">    
+                <ul class=" navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Explorer Tut</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="quem%20_somos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a> 
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Fale Conosco</a>
+                    </li>
+                </ul>         
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+    <h1>Entre em contato conosco.</h1>
+    <form method="post" action="html.2">
+        <div class="row">
+        <div class="form-group">    
+     <label for="assunto">Titulo</label>
+        <select name="assunto" id="assunto" class="form-control">
+            <option value="sr">Duvidas</option>
+            <option value="sra">Orçamento</option>
+            <option value="srta">Sugestões</option>
+            <option value="RE">Reclamações</option>
+        </select>
+        </div>
+        </div>
+        <div class="form-row">
+    <div class="form-group col-xs-4 col-md-4 col-lg-4 col-xl-4">
+         <label for="idnome">Nome:</label> 
+         <input type="text" id="idnome"nome="origem" required="true"
+            Placeholder="Digite seu nome" required="tue" class="form-control"/>
+    </div>
+        </div>        
+    <div class="form-row">
+     <div class="form-group col-xs-4 col-md-4 col-lg-4 col-xl-4">
+         <label for="idtelefone">telefone:</label> 
+         <input type="number" id="idtelefone"nome="telefone" required="true"
+            Placeholder="Digite telefone" class="form-control"/>
+    </div>   
+</div>
+           <div class="form-row">
+     <div class="form-group col-xs-4 col-md-4 col-lg-4 col-xl-4">
+         <label for="idemail">E-mail:</label> 
+         <input type="email" id="idemail"nome="email" required="true"
+            Placeholder="Digite e-mail" class="form-control"/>
+    </div>   
+</div>
+        <label for="idmenssagem">Menssagem:</label>
+            <textarea name="mensagem" cols="60"
+                rows="10" maxlength="300" id="idmenssagem" class="form-control"></textarea>
+              <div class="form-row">
+     <div class="form-group col-xs-4 col-md-4 col-lg-4 col-xl-4">
+        <input type="submit" value="gravar" class="btn btn-primary"/>
+            <input type="reset" value="limpar" class="btn btn-secondary"/>
+                  </div>
+        </div>              
+    </form>
+        <h4>Nossos Escritorios</h4>
+        <p>Rio de janeiro</p>
+        <p>Endereço: Av. dos Expedicionários, 541.</p>
+        <p>Telefone: (21) 2345-3939</p>
+
+        <p>São Paulo: Em breve</p>
+
+        <p>Brasília: Em breve</p>
+
+    </div>
+   <footer>
+        <div class="footer">
+            <div class="container">
+                <span class="text-muted">Agência Fabio Andrews Viagens</span>
+            </div>
+        </div>
+
+    </footer>   
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+</body>
+</html>
